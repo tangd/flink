@@ -48,7 +48,7 @@ matrix:
     - env:
       - REMOTE="apache"
       - BRANCH="master"
-      - PROFILE="-DwithoutHadoop"
+      - PROFILE="-DwithoutHadoop -De2e-metrics"
       - SCRIPT="split_misc.sh"
     - env:
       - REMOTE="apache"
